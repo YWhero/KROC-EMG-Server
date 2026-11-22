@@ -1,0 +1,117 @@
+{
+  "captured_at_kst": "2026-11-23T06:46:27+09:00",
+  "checkpoint_repository": "HYHero/kroc-act-emg-balanced-20261123",
+  "runs": [
+    {
+      "archive_variant": "window",
+      "status": "complete",
+      "last_logged_step": 100000,
+      "target_steps": 100000,
+      "best_validation_step": 47000,
+      "best_validation_action_l1": 0.16692627603647733,
+      "latest_direction_validation_step": null,
+      "latest_direction_macro_f1": null,
+      "verified_checkpoint_steps": [
+        20000,
+        40000,
+        47000,
+        60000,
+        80000,
+        100000
+      ],
+      "hub_tree": "https://huggingface.co/HYHero/kroc-act-emg-balanced-20261123/tree/main/runs/window/8f0c57366a08414aa9ef17471832c4ed"
+    },
+    {
+      "archive_variant": "spectrogram",
+      "status": "complete",
+      "last_logged_step": 100000,
+      "target_steps": 100000,
+      "best_validation_step": 98000,
+      "best_validation_action_l1": 0.1589465666031045,
+      "latest_direction_validation_step": null,
+      "latest_direction_macro_f1": null,
+      "verified_checkpoint_steps": [
+        20000,
+        40000,
+        60000,
+        80000,
+        98000,
+        100000
+      ],
+      "hub_tree": "https://huggingface.co/HYHero/kroc-act-emg-balanced-20261123/tree/main/runs/spectrogram/6df28b3ee7e640bb9a30e811d35e4b23"
+    },
+    {
+      "archive_variant": "window_direction",
+      "status": "complete",
+      "last_logged_step": 100000,
+      "target_steps": 100000,
+      "best_validation_step": 47000,
+      "best_validation_action_l1": 0.16622439075795487,
+      "latest_direction_validation_step": 100000,
+      "latest_direction_macro_f1": 0.6592420673569522,
+      "verified_checkpoint_steps": [
+        20000,
+        40000,
+        47000,
+        60000,
+        80000,
+        100000
+      ],
+      "hub_tree": "https://huggingface.co/HYHero/kroc-act-emg-balanced-20261123/tree/main/runs/window_direction/e89c1d6f8a344bb8b4e140970eac6d6f"
+    },
+    {
+      "archive_variant": "window_320",
+      "status": "started",
+      "last_logged_step": 59400,
+      "target_steps": 100000,
+      "best_validation_step": 56000,
+      "best_validation_action_l1": 0.17145019509145903,
+      "latest_direction_validation_step": null,
+      "latest_direction_macro_f1": null,
+      "verified_checkpoint_steps": [
+        20000,
+        40000
+      ],
+      "hub_tree": "https://huggingface.co/HYHero/kroc-act-emg-balanced-20261123/tree/main/runs/window_320/65d0132c25f34b4880085ce8cf1b9d99"
+    },
+    {
+      "archive_variant": "window_direction_320",
+      "status": "started",
+      "last_logged_step": 59300,
+      "target_steps": 100000,
+      "best_validation_step": 32000,
+      "best_validation_action_l1": 0.1693913769857836,
+      "latest_direction_validation_step": 59000,
+      "latest_direction_macro_f1": 0.6894001122801243,
+      "verified_checkpoint_steps": [
+        20000,
+        40000
+      ],
+      "hub_tree": "https://huggingface.co/HYHero/kroc-act-emg-balanced-20261123/tree/main/runs/window_direction_320/7e3614de15f045ee9edcd46d11b86c64"
+    },
+    {
+      "archive_variant": "baseline",
+      "status": "queued",
+      "last_logged_step": null,
+      "target_steps": 100000,
+      "best_validation_step": null,
+      "best_validation_action_l1": null,
+      "latest_direction_validation_step": null,
+      "latest_direction_macro_f1": null,
+      "verified_checkpoint_steps": [],
+      "hub_tree": null
+    },
+    {
+      "archive_variant": "concat",
+      "status": "queued",
+      "last_logged_step": null,
+      "target_steps": 100000,
+      "best_validation_step": null,
+      "best_validation_action_l1": null,
+      "latest_direction_validation_step": null,
+      "latest_direction_macro_f1": null,
+      "verified_checkpoint_steps": [],
+      "hub_tree": null
+    }
+  ]
+}

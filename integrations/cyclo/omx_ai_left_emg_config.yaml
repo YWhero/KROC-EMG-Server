@@ -1,0 +1,49 @@
+orchestrator:
+  ros__parameters:
+    omx_ai_left_emg:
+      robot_name: OMX-AI Left (ACT / single-arm collection) + EMG
+      urdf_path: urdf/omx_ai_bimanual.urdf
+      visualization:
+        end_effector_links:
+        - left_end_effector_link
+      observation:
+        images:
+          top:
+            topic: /camera_top/image_raw/compressed
+            msg_type: sensor_msgs/msg/CompressedImage
+            rotation_deg: 0
+          wrist:
+            topic: /camera_wrist_left/image_raw/compressed
+            msg_type: sensor_msgs/msg/CompressedImage
+            rotation_deg: 0
+        state:
+          joints:
+            topic: /left/joint_states
+            msg_type: sensor_msgs/msg/JointState
+            joint_names:
+            - left_joint1
+            - left_joint2
+            - left_joint3
+            - left_joint4
+            - left_joint5
+            - left_gripper_joint_1
+      action:
+        arm:
+          topic: /left/leader/joint_trajectory
+          msg_type: trajectory_msgs/msg/JointTrajectory
+          joint_names:
+          - left_joint1
+          - left_joint2
+          - left_joint3
+          - left_joint4
+          - left_joint5
+          - left_gripper_joint_1
+      recording:
+        extra_topics:
+        - /tf
+        - /camera_top/camera_info
+        - /camera_wrist_left/camera_info
+        - /left/leader/joint_states
+        - /omx/teleop_hold/status
+        - /emg/status
+        - /emg/lifecycle

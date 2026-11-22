@@ -1,0 +1,119 @@
+{
+  "schema": "kroc-study-annotations-v1",
+  "recorded_date_kst": "2026-11-15",
+  "declaration_source": "Retrospective collector and annotation review",
+  "source_dataset": "HYHero/red_pen_adaptive_handover_202611141907",
+  "source_snapshot_sha_checked": "8953cd81be67e3605f3b0ecdcc3e1875464250d6",
+  "source_episode_index_convention": "Original dataset folder names 0 through 29; matches converted episode_index",
+  "participant_id": "participant_01",
+  "emg_source_role": "recipient",
+  "electrodes_attached_declared": true,
+  "instrumented_arm": "right",
+  "rotation_direction_reference": "recipient_perspective",
+  "channel_placement_descriptions_ko": {
+    "A0": "손등 방향에서 새끼손가락 쪽으로 내려가는, 팔꿈치에 가까운 전완부",
+    "A1": "손바닥 방향에서 엄지 쪽으로 내려가는, 팔꿈치에 가까운 전완부",
+    "A2": "손바닥 방향에서 손목 쪽 부위",
+    "A3": "손등"
+  },
+  "anatomical_muscle_names_verified": false,
+  "signal_quality": "not_assessed",
+  "signal_quality_scope": "Original overall quality status retained. Electrode attachment is user-confirmed; physiological validity has not been formally assessed.",
+  "quality_assessment": {
+    "acquisition_integrity": "basic_checks_passed",
+    "physiological_validity": "not_validated",
+    "task_relevance": "not_evaluated",
+    "evidence": "Read-only numerical audit performed in this review on 2026-11-15 KST",
+    "raw_adc_samples": 1482138,
+    "raw_adc_rail_clip_fraction_by_channel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recorded_missing_scans": 0,
+    "emg_sidecar_reconstruction_matches_all_30_episodes": true
+  },
+  "conditions": {
+    "as_is": {
+      "display_name_ko": "그대로 받음",
+      "source_episode_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    "wrist_right": {
+      "display_name_ko": "손목을 오른쪽으로 돌림",
+      "source_episode_indices": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        28,
+        29
+      ]
+    },
+    "wrist_left": {
+      "display_name_ko": "손목을 왼쪽으로 돌림",
+      "source_episode_indices": [
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    }
+  },
+  "episode_conditions": {
+    "0": "wrist_left",
+    "1": "as_is",
+    "2": "as_is",
+    "3": "as_is",
+    "4": "as_is",
+    "5": "as_is",
+    "6": "wrist_left",
+    "7": "wrist_left",
+    "8": "wrist_left",
+    "9": "wrist_left",
+    "10": "wrist_left",
+    "11": "wrist_left",
+    "12": "wrist_right",
+    "13": "wrist_right",
+    "14": "wrist_right",
+    "15": "wrist_right",
+    "16": "wrist_right",
+    "17": "wrist_right",
+    "18": "as_is",
+    "19": "as_is",
+    "20": "as_is",
+    "21": "as_is",
+    "22": "as_is",
+    "23": "wrist_left",
+    "24": "wrist_left",
+    "25": "wrist_left",
+    "26": "wrist_left",
+    "27": "wrist_left",
+    "28": "wrist_right",
+    "29": "wrist_right"
+  },
+  "condition_annotation_scope": "Episode-level collection condition; does not identify rotation onset, contact, secure grasp, or release timestamps.",
+  "condition_label_usage": "Metadata for split design, sampling and evaluation; not supplied to the current policy as input.",
+  "integration_status": "Linked by annotations path in all three production configs; copied and hashed into each new experiment. Condition labels are for evaluation only."
+}

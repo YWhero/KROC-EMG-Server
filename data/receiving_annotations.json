@@ -1,0 +1,135 @@
+{
+  "schema": "kroc-receive-phase-v1",
+  "camera": "top",
+  "source_video": "top.mp4",
+  "timestamp_column": "recv_ns",
+  "scope": "Manual 0.5-second head-camera grid review. Starts at the first clearly open, approaching hand and ends during presentation/alignment before sustained grasp or release. Bounds are approximate; annotated frame indices are mapped to the recorded receive clock.",
+  "class_order": [
+    "as_is",
+    "wrist_left",
+    "wrist_right"
+  ],
+  "excluded_class_index": -1,
+  "episodes": {
+    "0": {
+      "first_frame": 392,
+      "stop_frame_exclusive": 452
+    },
+    "1": {
+      "first_frame": 470,
+      "stop_frame_exclusive": 500
+    },
+    "2": {
+      "first_frame": 374,
+      "stop_frame_exclusive": 404
+    },
+    "3": {
+      "first_frame": 353,
+      "stop_frame_exclusive": 383
+    },
+    "4": {
+      "first_frame": 368,
+      "stop_frame_exclusive": 398
+    },
+    "5": {
+      "first_frame": 347,
+      "stop_frame_exclusive": 377
+    },
+    "6": {
+      "first_frame": 392,
+      "stop_frame_exclusive": 437
+    },
+    "7": {
+      "first_frame": 368,
+      "stop_frame_exclusive": 413
+    },
+    "8": {
+      "first_frame": 362,
+      "stop_frame_exclusive": 407
+    },
+    "9": {
+      "first_frame": 362,
+      "stop_frame_exclusive": 407
+    },
+    "10": {
+      "first_frame": 331,
+      "stop_frame_exclusive": 377
+    },
+    "11": {
+      "first_frame": 292,
+      "stop_frame_exclusive": 337
+    },
+    "12": {
+      "first_frame": 337,
+      "stop_frame_exclusive": 382
+    },
+    "13": {
+      "first_frame": 322,
+      "stop_frame_exclusive": 368
+    },
+    "14": {
+      "first_frame": 344,
+      "stop_frame_exclusive": 389
+    },
+    "15": {
+      "first_frame": 320,
+      "stop_frame_exclusive": 365
+    },
+    "16": {
+      "first_frame": 347,
+      "stop_frame_exclusive": 392
+    },
+    "17": {
+      "first_frame": 371,
+      "stop_frame_exclusive": 416
+    },
+    "18": {
+      "first_frame": 337,
+      "stop_frame_exclusive": 367
+    },
+    "19": {
+      "first_frame": 334,
+      "stop_frame_exclusive": 365
+    },
+    "20": {
+      "first_frame": 344,
+      "stop_frame_exclusive": 374
+    },
+    "21": {
+      "first_frame": 329,
+      "stop_frame_exclusive": 359
+    },
+    "22": {
+      "first_frame": 332,
+      "stop_frame_exclusive": 362
+    },
+    "23": {
+      "first_frame": 395,
+      "stop_frame_exclusive": 440
+    },
+    "24": {
+      "first_frame": 373,
+      "stop_frame_exclusive": 419
+    },
+    "25": {
+      "first_frame": 371,
+      "stop_frame_exclusive": 416
+    },
+    "26": {
+      "first_frame": 395,
+      "stop_frame_exclusive": 441
+    },
+    "27": {
+      "first_frame": 370,
+      "stop_frame_exclusive": 415
+    },
+    "28": {
+      "first_frame": 335,
+      "stop_frame_exclusive": 380
+    },
+    "29": {
+      "first_frame": 421,
+      "stop_frame_exclusive": 467
+    }
+  }
+}

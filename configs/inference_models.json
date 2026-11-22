@@ -1,0 +1,21 @@
+{
+  "repo_id": "HYHero/kroc-act-emg-checkpoints",
+  "revision": "98cbacdd225911d24b2728df29c71c1282e12901",
+  "files": [
+    {
+      "path": "runs/baseline/f6ce602cc6ae4b3387fb86f65cf63a03/checkpoints/00100000/checkpoint.pt",
+      "size": 619124883,
+      "sha256": "f38cab886dca327b167eb54139e112d205ae042b217559126100d04064a175af"
+    },
+    {
+      "path": "runs/concat/2760a3b366404971bfccd460e1b240c8/checkpoints/00100000/checkpoint.pt",
+      "size": 619173587,
+      "sha256": "df89ba06346dc0906e207f89bcfb1307e8873672dfbadeb7bf56b625b88ef595"
+    },
+    {
+      "path": "runs/window/d6dabb35f8b641af952d69eba0282631/checkpoints/00100000/checkpoint.pt",
+      "size": 624014331,
+      "sha256": "3f74135e8d0adaf2f0519966f1a3b9eaf1896337fb6de5c8362645f8b35798fc"
+    }
+  ]
+}

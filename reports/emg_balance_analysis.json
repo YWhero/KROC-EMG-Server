@@ -1,0 +1,597 @@
+{
+  "visual_anchor_seconds": [
+    15.0,
+    15.1,
+    12.4,
+    11.7,
+    12.2,
+    12.0,
+    14.0,
+    13.2,
+    12.5,
+    12.0,
+    12.0,
+    10.2,
+    11.7,
+    11.2,
+    11.9,
+    12.1,
+    12.5,
+    12.8,
+    11.2,
+    11.1,
+    11.4,
+    11.9,
+    10.5,
+    14.1,
+    13.4,
+    13.8,
+    13.6,
+    12.8,
+    11.6,
+    15.0
+  ],
+  "anchor_interpretation": "Approximate movement center; seconds in top clip",
+  "bands_hz": [
+    [
+      20,
+      60
+    ],
+    [
+      60,
+      120
+    ],
+    [
+      120,
+      250
+    ],
+    [
+      250,
+      450
+    ]
+  ],
+  "phase_centers_seconds": [
+    -1.25,
+    -0.625,
+    0,
+    0.625,
+    1.25
+  ],
+  "conditions": {
+    "as_is": {
+      "source_episode_count": 10,
+      "validation_ids": [
+        5,
+        18
+      ],
+      "ranking": [
+        {
+          "episode": 3,
+          "score": 0.5656602420447898,
+          "rms_distance": 0.5132286665326142,
+          "band_distance": 0.6171543175569649,
+          "valid_coverage": 0.9998437499999999
+        },
+        {
+          "episode": 22,
+          "score": 0.5879347788286913,
+          "rms_distance": 0.615607563044378,
+          "band_distance": 0.5602619946130046,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 19,
+          "score": 0.6967143975854733,
+          "rms_distance": 0.6825853945997333,
+          "band_distance": 0.7108434005712132,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 20,
+          "score": 0.7503918894038268,
+          "rms_distance": 0.81330149300875,
+          "band_distance": 0.6874822857989036,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 2,
+          "score": 1.1918829567282232,
+          "rms_distance": 1.0298095293185858,
+          "band_distance": 1.3530188841378603,
+          "valid_coverage": 0.9998437499999999
+        },
+        {
+          "episode": 21,
+          "score": 1.207704756321007,
+          "rms_distance": 1.4458601615092468,
+          "band_distance": 0.9695493511327674,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 4,
+          "score": 1.239277103191117,
+          "rms_distance": 1.3075683057350913,
+          "band_distance": 1.1709859006471428,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 1,
+          "score": 1.7325910442439545,
+          "rms_distance": 2.0983996612734765,
+          "band_distance": 1.3667824272144324,
+          "valid_coverage": 1.0
+        }
+      ],
+      "original_pool_repeats": [],
+      "train_slots": [
+        3,
+        22,
+        19,
+        20,
+        2,
+        21,
+        4,
+        1,
+        3,
+        22
+      ],
+      "median_rms_by_phase_and_channel": [
+        [
+          16.36,
+          11.31,
+          12.65,
+          11.66
+        ],
+        [
+          36.78,
+          40.88,
+          15.94,
+          67.25
+        ],
+        [
+          35.81,
+          38.82,
+          17.62,
+          55.99
+        ],
+        [
+          25.33,
+          32.92,
+          16.03,
+          47.01
+        ],
+        [
+          25.01,
+          30.06,
+          16.2,
+          46.44
+        ]
+      ],
+      "median_rms_counts": [
+        26.41,
+        32.16,
+        16.24,
+        47.15
+      ],
+      "median_band_fraction_band_by_channel": [
+        [
+          0.443,
+          0.337,
+          0.133,
+          0.074
+        ],
+        [
+          0.365,
+          0.495,
+          0.41,
+          0.218
+        ],
+        [
+          0.156,
+          0.138,
+          0.385,
+          0.48
+        ],
+        [
+          0.023,
+          0.019,
+          0.055,
+          0.226
+        ]
+      ]
+    },
+    "wrist_left": {
+      "source_episode_count": 12,
+      "validation_ids": [
+        0,
+        9
+      ],
+      "ranking": [
+        {
+          "episode": 24,
+          "score": 0.5622909096237538,
+          "rms_distance": 0.4663867016144375,
+          "band_distance": 0.6581951176330701,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 26,
+          "score": 0.7313309161101182,
+          "rms_distance": 0.8473125497965325,
+          "band_distance": 0.6153492824237041,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 23,
+          "score": 0.7654142532859673,
+          "rms_distance": 0.8158404081449545,
+          "band_distance": 0.7149880984269802,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 11,
+          "score": 0.9323517298067465,
+          "rms_distance": 1.076523352275628,
+          "band_distance": 0.788180107337865,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 25,
+          "score": 0.9399009722330169,
+          "rms_distance": 1.0254181667397275,
+          "band_distance": 0.8543837777263065,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 27,
+          "score": 0.9895003747593618,
+          "rms_distance": 1.2477968808035733,
+          "band_distance": 0.7312038687151504,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 8,
+          "score": 1.012377736862673,
+          "rms_distance": 1.154027332936753,
+          "band_distance": 0.8707281407885932,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 6,
+          "score": 1.2411353264658402,
+          "rms_distance": 1.6115435965686988,
+          "band_distance": 0.8707270563629816,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 7,
+          "score": 1.2622185678976605,
+          "rms_distance": 1.5129307101194358,
+          "band_distance": 1.0115064256758852,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 10,
+          "score": 1.8771411454577103,
+          "rms_distance": 2.549771130763033,
+          "band_distance": 1.2045111601523872,
+          "valid_coverage": 1.0
+        }
+      ],
+      "original_pool_repeats": [],
+      "train_slots": [
+        24,
+        26,
+        23,
+        11,
+        25,
+        27,
+        8,
+        6,
+        24,
+        26
+      ],
+      "median_rms_by_phase_and_channel": [
+        [
+          37.51,
+          47.62,
+          19.88,
+          66.47
+        ],
+        [
+          49.87,
+          46.56,
+          37.13,
+          81.05
+        ],
+        [
+          36.43,
+          34.71,
+          32.43,
+          57.39
+        ],
+        [
+          33.77,
+          22.45,
+          20.52,
+          44.42
+        ],
+        [
+          29.27,
+          21.08,
+          22.73,
+          39.56
+        ]
+      ],
+      "median_rms_counts": [
+        37.51,
+        34.45,
+        23.9,
+        59.18
+      ],
+      "median_band_fraction_band_by_channel": [
+        [
+          0.386,
+          0.247,
+          0.174,
+          0.06
+        ],
+        [
+          0.395,
+          0.426,
+          0.384,
+          0.181
+        ],
+        [
+          0.178,
+          0.254,
+          0.356,
+          0.476
+        ],
+        [
+          0.027,
+          0.051,
+          0.064,
+          0.264
+        ]
+      ]
+    },
+    "wrist_right": {
+      "source_episode_count": 8,
+      "validation_ids": [
+        14,
+        29
+      ],
+      "ranking": [
+        {
+          "episode": 17,
+          "score": 0.627605466811214,
+          "rms_distance": 0.6386647177554798,
+          "band_distance": 0.6165462158669481,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 28,
+          "score": 0.6513919128817103,
+          "rms_distance": 0.5696942652047363,
+          "band_distance": 0.7321520605586839,
+          "valid_coverage": 0.9998437499999999
+        },
+        {
+          "episode": 16,
+          "score": 0.7071554285165815,
+          "rms_distance": 0.5878238899869936,
+          "band_distance": 0.8264869670461693,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 13,
+          "score": 0.8471065188617903,
+          "rms_distance": 0.8296133889013848,
+          "band_distance": 0.8645996488221958,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 15,
+          "score": 0.9656953488976397,
+          "rms_distance": 0.9090135428750241,
+          "band_distance": 1.0223771549202554,
+          "valid_coverage": 1.0
+        },
+        {
+          "episode": 12,
+          "score": 0.9683732301161729,
+          "rms_distance": 0.4978777068666309,
+          "band_distance": 1.438868753365715,
+          "valid_coverage": 1.0
+        }
+      ],
+      "original_pool_repeats": [
+        17,
+        28
+      ],
+      "train_slots": [
+        17,
+        28,
+        16,
+        13,
+        15,
+        12,
+        17,
+        28,
+        16,
+        13
+      ],
+      "median_rms_by_phase_and_channel": [
+        [
+          33.73,
+          40.02,
+          16.81,
+          63.28
+        ],
+        [
+          31.2,
+          49.74,
+          21.11,
+          82.3
+        ],
+        [
+          38.58,
+          46.83,
+          20.53,
+          69.48
+        ],
+        [
+          28.79,
+          40.13,
+          14.88,
+          58.11
+        ],
+        [
+          26.28,
+          30.87,
+          14.52,
+          51.1
+        ]
+      ],
+      "median_rms_counts": [
+        29.82,
+        41.14,
+        17.97,
+        60.62
+      ],
+      "median_band_fraction_band_by_channel": [
+        [
+          0.366,
+          0.322,
+          0.278,
+          0.069
+        ],
+        [
+          0.271,
+          0.491,
+          0.381,
+          0.207
+        ],
+        [
+          0.297,
+          0.145,
+          0.277,
+          0.452
+        ],
+        [
+          0.059,
+          0.021,
+          0.049,
+          0.242
+        ]
+      ]
+    }
+  },
+  "balanced_source_slots_with_fixed_validation": {
+    "as_is": [
+      3,
+      22,
+      19,
+      20,
+      2,
+      21,
+      4,
+      1,
+      5,
+      18
+    ],
+    "wrist_left": [
+      24,
+      26,
+      23,
+      11,
+      25,
+      27,
+      8,
+      6,
+      0,
+      9
+    ],
+    "wrist_right": [
+      17,
+      28,
+      16,
+      13,
+      15,
+      12,
+      17,
+      28,
+      14,
+      29
+    ]
+  },
+  "train_only_window_probe": {
+    "120": {
+      "correct": 22,
+      "unique_train_episodes": 24,
+      "confusion": {
+        "as_is": {
+          "as_is": 7,
+          "wrist_left": 1
+        },
+        "wrist_left": {
+          "wrist_left": 9,
+          "as_is": 1
+        },
+        "wrist_right": {
+          "wrist_right": 6
+        }
+      }
+    },
+    "200": {
+      "correct": 23,
+      "unique_train_episodes": 24,
+      "confusion": {
+        "as_is": {
+          "as_is": 8
+        },
+        "wrist_left": {
+          "wrist_left": 9,
+          "as_is": 1
+        },
+        "wrist_right": {
+          "wrist_right": 6
+        }
+      }
+    },
+    "250": {
+      "correct": 23,
+      "unique_train_episodes": 24,
+      "confusion": {
+        "as_is": {
+          "as_is": 8
+        },
+        "wrist_left": {
+          "wrist_left": 9,
+          "as_is": 1
+        },
+        "wrist_right": {
+          "wrist_right": 6
+        }
+      }
+    },
+    "320": {
+      "correct": 22,
+      "unique_train_episodes": 24,
+      "confusion": {
+        "as_is": {
+          "as_is": 7,
+          "wrist_left": 1
+        },
+        "wrist_left": {
+          "wrist_left": 9,
+          "as_is": 1
+        },
+        "wrist_right": {
+          "wrist_right": 6
+        }
+      }
+    }
+  }
+}

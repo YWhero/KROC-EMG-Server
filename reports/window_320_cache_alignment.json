@@ -1,0 +1,31 @@
+{
+  "source_window_ms": 200,
+  "window_ms": 320,
+  "splits": {
+    "train": {
+      "original_sampled_frames": 19083,
+      "retained_sampled_frames": 18978,
+      "original_unique_frames": 13902,
+      "retained_unique_frames": 13826,
+      "labeled_sampled_frames": 1200,
+      "labeled_frames_by_class": {
+        "as_is": 297,
+        "wrist_left": 453,
+        "wrist_right": 450
+      }
+    },
+    "val": {
+      "original_sampled_frames": 3854,
+      "retained_sampled_frames": 3831,
+      "original_unique_frames": 3854,
+      "retained_unique_frames": 3831,
+      "labeled_sampled_frames": 255,
+      "labeled_frames_by_class": {
+        "as_is": 60,
+        "wrist_left": 105,
+        "wrist_right": 90
+      }
+    }
+  },
+  "verified": "Exact equality of retained 200ms tails. Original camera, action, phase labels, splits and normalization."
+}
